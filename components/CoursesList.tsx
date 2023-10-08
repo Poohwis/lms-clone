@@ -1,5 +1,5 @@
 import { Category, Course } from "@prisma/client";
-import { CourseCard } from "@/components/CouresCard";
+import { CourseCard } from "@/components/CourseCard";
 
 type CourseWithProgressWithCategory = Course & {
   category: Category | null;
